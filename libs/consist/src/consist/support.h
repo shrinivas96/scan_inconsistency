@@ -22,8 +22,8 @@
 #ifndef SUPPORT_H_
 #define SUPPORT_H_
 
-#include <Eigen/Core>
-#include <Eigen/StdVector>
+#include <eigen3/Eigen/Core>
+#include <eigen3/Eigen/StdVector>
 #include <vector>
 #include <iostream>
 #include <g2o/core/optimizable_graph.h>

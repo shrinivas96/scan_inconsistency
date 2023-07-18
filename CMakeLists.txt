@@ -6,6 +6,10 @@ set(CMAKE_CXX_STANDARD 11)
 add_subdirectory(src)
 add_subdirectory(libs)
 
+# list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
+
+# find_package(g2o REQUIRED)
+
 include_directories(${PROJECT_SOURCE_DIR}/libs/consist/src ${PROJECT_SOURCE_DIR}/libs/g2o/g2o)
 
 # not sure where they belong
