@@ -1,0 +1,30 @@
+Consist readme
+--------------
+
+The package has the following dependencies:
+ - g2o (with Cholmod support)
+ - Cholmod + BLAS
+ - Eigen3
+ - Qt4 (optional)
+ - QGLViewer (optional)
+ - OpenGL (optional)
+ - Doxygen (optional)
+
+Qt4, QGLViewer and OpenGL are required only if you want gui support for the
+tester application. If all of the three are found, gui support will be
+automatically enabled.
+Doxygen is required only if you want to build the documentation. 
+
+Compile with:
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+
+You can build the documentation with:
+$ make doc
+
+Note that currently there is no install functionality built in, sorry.
+
+The library is bundled with two applications, refer to the documentation
+for the usage instructions, or run the applications with the --help flag.
