@@ -1,0 +1,5 @@
+# cmake build related ignores
+**/build/**
+
+# vs code related ignores
+**/.vscode/**
